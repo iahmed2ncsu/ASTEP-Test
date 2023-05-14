@@ -22,7 +22,7 @@ from numpy import genfromtxt
 st.set_page_config(page_title=None, page_icon=None, 
                    layout="wide", 
                    initial_sidebar_state="auto", menu_items=None)
-os.chdir("streamlit/")
+os.chdir("./streamlit/")
 ### Define Tab Names and Numbers
 tab1, tab2,tab3, tab4 = st.tabs(["Inputs 1-3", "Inputs 4-7","Run Economic Assessment","Results"])
 
