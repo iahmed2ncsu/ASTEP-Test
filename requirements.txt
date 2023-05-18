@@ -5,4 +5,3 @@ plotly == 5.6.0
 plotly.express
 matplotlib == 3.5.1
 Image
-math
