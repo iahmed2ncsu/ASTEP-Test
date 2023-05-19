@@ -34,6 +34,8 @@ with tab1:
     os.chdir(path_trafassign)
     st.write(os.getcwd())
     subprocess.run("TrafAssign.exe", capture_output=True)
+    os.chdir(working_dir)
+    st.write(os.getcwd())
 with tab2:
     test_df = pd.read_csv("coal_petrolium_red.csv", header=0,index_col = 0)
     st.write(test_df)
