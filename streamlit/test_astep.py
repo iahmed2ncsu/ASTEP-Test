@@ -39,6 +39,6 @@ with tab1:
       st.write(os.getcwd())
     except:
       st.write("ERROR")
-with tab2:
-    test_df = pd.read_csv("coal_petrolium_red.csv", header=0,index_col = 0)
-    st.write(test_df)
+#with tab2:
+    #test_df = pd.read_csv("coal_petrolium_red.csv", header=0,index_col = 0)
+    #st.write(test_df)
