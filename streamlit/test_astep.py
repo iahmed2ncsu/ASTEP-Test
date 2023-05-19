@@ -31,7 +31,7 @@ tab1, tab2,tab3, tab4 = st.tabs(["Inputs 1-3", "Inputs 4-7","Run Economic Assess
 with tab1:
     st.write(os.getcwd())
     if st.button("Submit All Inputs"):
-      subprocess.run(["TrafAssign"], capture_output=True)
+      subprocess.run(["/app/astep-test/TrafAssign.exe", capture_output=True)
 #with tab2:
     #test_df = pd.read_csv("coal_petrolium_red.csv", header=0,index_col = 0)
     #st.write(test_df)
