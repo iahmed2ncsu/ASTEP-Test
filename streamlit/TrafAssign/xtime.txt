@@ -1,1 +1,0 @@
-Time measured: 46.038 seconds.
